@@ -1,3 +1,5 @@
+<!-- HƯỚNG DẪN: Xóa sạch toàn bộ file README.md cũ trên GitHub, dán toàn bộ nội dung từ dòng này trở xuống rồi bấm Commit changes -->
+
 # Mummy Maze Deluxe
 
 ## 💻 Yêu cầu hệ thống
@@ -11,35 +13,37 @@
 ### 1. Cài đặt thư viện cần thiết:
 ```bash
 pip install pygame-ce>=2.5.6
+```
 
-2. Khởi chạy game:
+### 2. Khởi chạy game:
+* **Cách 1 (Nhanh nhất trên Windows):** Click đúp chuột vào file `run_game.bat`.
+* **Cách 2 (Dòng lệnh):**
+```bash
 python source/main.py
+```
 
-## Hướng dẫn sử dụng
-1. Màn hình đăng nhập
-Register (Đăng ký): Nhập tên đăng nhập và mật khẩu, sau đó nhấn nút Register để tạo tài khoản mới.
+---
 
-Login (Đăng nhập): Nhập thông tin tài khoản đã đăng ký để vào game. Dữ liệu điểm số và file lưu sẽ gắn liền với tài khoản này.
+## 📖 Hướng dẫn sử dụng
 
-Guest (Chơi thử): Chọn chế độ này để chơi ngay mà không cần tài khoản (không lưu được điểm lên bảng xếp hạng).
+### 1. Màn hình đăng nhập
+* **Register (Đăng ký):** Nhập tên đăng nhập và mật khẩu, sau đó nhấn nút **Register** để tạo tài khoản mới.
+* **Login (Đăng nhập):** Nhập thông tin tài khoản đã đăng ký để vào game. Dữ liệu điểm số và file lưu sẽ gắn liền với tài khoản này.
+* **Guest (Chơi thử):** Chọn chế độ này để chơi ngay mà không cần tài khoản (không lưu được điểm lên bảng xếp hạng).
 
-2. Menu chính
-Enter: Chơi mới (New Game) - Bắt đầu từ Level 1.
+### 2. Menu chính
+* **Enter:** Chơi mới (New Game) - Bắt đầu từ Level 1.
+* **Phím L:** Tiếp tục (Load Game) - Tải lại màn chơi từ lần lưu gần nhất.
+* **Phím Q:** Thoát game.
 
-Phím L: Tiếp tục (Load Game) - Tải lại màn chơi từ lần lưu gần nhất.
+### 3. Điều khiển trong game
+* **Di chuyển:** Sử dụng các phím mũi tên (`Lên`, `Xuống`, `Trái`, `Phải`) hoặc cụm phím `W`, `A`, `S`, `D`.
+* **Lưu game (Save):** Nhấn phím `S`. Trạng thái nhân vật và màn chơi hiện tại sẽ được lưu lại.
+* **Quay về Menu:** Nhấn phím `ESC`.
 
-Phím Q: Thoát game.
+---
 
-3. Điều khiển trong game
-Di chuyển: Sử dụng các phím mũi tên (Lên, Xuống, Trái, Phải) hoặc cụm phím W, A, S, D.
-
-Lưu game (Save): Nhấn phím S. Trạng thái nhân vật và màn chơi hiện tại sẽ được lưu lại.
-
-Quay về Menu: Nhấn phím ESC.
-
-📁 Cấu trúc thư mục
-source/: Chứa mã nguồn chính và các module xử lý logic game.
-
-assets/: Tài nguyên hình ảnh, font chữ và âm thanh.
-
-saves/: Nơi lưu trữ dữ liệu người dùng và tiến trình màn chơi.
+## 📁 Cấu trúc thư mục
+* `source/`: Chứa mã nguồn chính và các module xử lý logic game.
+* `assets/`: Tài nguyên hình ảnh, font chữ và âm thanh.
+* `saves/`: Nơi lưu trữ dữ liệu người dùng và tiến trình màn chơi.
