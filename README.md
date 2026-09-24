@@ -15,7 +15,7 @@ pip install pygame-ce>=2.5.6
 2. Khởi chạy game:
 python source/main.py
 
-Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 1. Màn hình đăng nhập
 Register (Đăng ký): Nhập tên đăng nhập và mật khẩu, sau đó nhấn nút Register để tạo tài khoản mới.
 
